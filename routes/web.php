@@ -28,3 +28,7 @@ Route::get('/feature2', function () {
 Route::get('/production1', function () {
     return view('welcome');
 });
+Route::get('/production2', function () {
+    return view('welcome');
+});
+
