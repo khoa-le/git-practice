@@ -21,10 +21,6 @@ Route::get('/feature1', function () {
     return view('welcome');
 });
 
-Route::get('/feature2', function () {
-    return view('welcome');
-});
-
 Route::get('/production1', function () {
     return view('welcome');
 });
